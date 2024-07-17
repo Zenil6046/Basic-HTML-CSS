@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header Css */
+
+header {
+  display: flex;
+  background-color: white;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b3acac;
+}
+
+.myntra_home {
+  width: 53px;
+  height: 36px;
+}
+
+.main_logo {
+  margin-left: 4%;
+}
+
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-between;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  font-weight: 700;
+  padding: 28px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffffff;
+}
+.nav-links:hover {
+  color: #ff3f6c;
+
+  border-bottom: 3px solid #ff3f6c;
+}
+
+#Studio-link-nav sup {
+  color: #ff3f6c;
+  font-size: 10px;
+}
+
+.search_bar {
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  font-weight: 300;
+  color: #282c3f;
+  background-color: #f5f5f6;
+  border-radius: 4px 0 0 4px;
+}
+.search_input {
+  flex-grow: 1;
+  background-color: #f5f5f6;
+  word-wrap: break-word;
+  color: #696e79;
+  border: 0;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+}
+
+.action_bar {
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Css */
+
+.banner_container {
+  margin: 30px 0;
+  /* padding: 20px 0 15px 0; */
+}
+
+.banner_image {
+  width: 100%;
+}
+
+.cat_banner_title {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.cat_img_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cat_img_items {
+  width: 250px;
+}
+
+/* Footer CSS */
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.footer_container h3 {
+  color: #282c3f;
+  padding-bottom: 5px;
+}
+
+.footer_items {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_items a {
+  color: #696b79;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
